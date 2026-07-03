@@ -34,9 +34,8 @@ export default function Hero() {
                     </h2>
 
                     <p className="mt-6 text-gray-600 dark:text-gray-300 leading-7">
-                        I build modern, responsive web applications using React, Next.js,
-                        TypeScript, and Tailwind CSS. I am currently looking for frontend
-                        internship opportunities in Poland.
+                        I build modern, responsive web applications using React, Next.js, TypeScript, and Tailwind CSS. My main focus is to secure a frontend developer position in Poland, while also being open to internship opportunities that can lead to a full-time role.
+
                     </p>
 
                     {/* Buttons */}
