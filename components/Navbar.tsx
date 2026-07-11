@@ -20,6 +20,7 @@ export default function Navbar() {
     const navItems = [
         { name: "About", href: "#about" },
         { name: "Skills", href: "#skills" },
+        { name: "Certificates", href: "#certificates" },
         { name: "Projects", href: "#projects" },
         { name: "Contact", href: "#contact" },
     ];
@@ -27,8 +28,8 @@ export default function Navbar() {
     return (
         <nav
             className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${scrolled
-                    ? "bg-white/70 dark:bg-zinc-900/70 backdrop-blur-xl shadow-md border-b border-gray-200 dark:border-zinc-800"
-                    : "bg-transparent"
+                ? "bg-white/70 dark:bg-zinc-900/70 backdrop-blur-xl shadow-md border-b border-gray-200 dark:border-zinc-800"
+                : "bg-transparent"
                 }`}
         >
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
